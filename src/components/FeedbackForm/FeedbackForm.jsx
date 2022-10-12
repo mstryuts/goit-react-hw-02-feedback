@@ -48,7 +48,9 @@ class Counter extends Component {
           toggle={this.toggle}
           showState={this.state.visible}
         />
-        {value1 === 300 && <div>отсоси у тракториста</div>}
+        {value1 === 300 && (
+          <div className={css.traktorist}>отсоси у тракториста</div>
+        )}
 
         {Math.random() > 0.4 ? (
           <div className={css.dropmenu}>ТЫ ПИДОР </div>
