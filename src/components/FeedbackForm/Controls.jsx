@@ -7,7 +7,7 @@ const Controls = ({ onPlus, onMinus, toggle, showState }) => (
       +
     </button>
     <button type="button" className={css.btn} onClick={toggle}>
-      {showState ? '=(' : '=)'}
+      {showState ? '=)' : '=('}
     </button>
     <button type="button" className={css.btn} onClick={onMinus}>
       -

@@ -2,6 +2,6 @@ import Counter from './FeedbackForm/FeedbackForm';
 
 export const App = () => (
   <>
-    <Counter initValue={99} />
+    <Counter initValue={295} />
   </>
 );
