@@ -1,0 +1,9 @@
+.values {
+  display: flex;
+}
+
+.value {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+}

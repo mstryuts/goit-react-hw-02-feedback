@@ -1,0 +1,9 @@
+.btn {
+  min-width: 40px;
+  height: 40px;
+  font-size: 30px;
+}
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+}
