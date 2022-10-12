@@ -38,7 +38,7 @@ class Counter extends Component {
     const { value1 } = this.state;
     const { value2 } = this.state;
     const { value3 } = this.state;
-    const { visible } = this.state;
+    // const { visible } = this.state;
     return (
       <div className={css.counter}>
         <Values value1={value1} value2={value2} value3={value3} />
