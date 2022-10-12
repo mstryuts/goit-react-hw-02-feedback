@@ -6,6 +6,8 @@ import Controls from '../FeedbackForm/Controls';
 
 import Values from '../FeedbackForm/Values';
 
+import pg from '../FeedbackForm/pg.gif';
+
 class Counter extends Component {
   static defaultProps = {
     initValue: 10000,
@@ -38,7 +40,7 @@ class Counter extends Component {
     const { value1 } = this.state;
     const { value2 } = this.state;
     const { value3 } = this.state;
-    // const { visible } = this.state;
+    const { visible } = this.state;
     return (
       <div className={css.counter}>
         <Values value1={value1} value2={value2} value3={value3} />
@@ -48,15 +50,6 @@ class Counter extends Component {
           toggle={this.toggle}
           showState={this.state.visible}
         />
-        {value1 === 300 && (
-          <div className={css.traktorist}>отсоси у тракториста</div>
-        )}
-
-        {Math.random() > 0.4 ? (
-          <div className={css.dropmenu}>ТЫ ПИДОР </div>
-        ) : (
-          <div className={css.dropmenu}>ТЫ не ПИДОР </div>
-        )}
       </div>
     );
   }
