@@ -1,5 +1,5 @@
 import css from '../Statistics/Statistics.module.css';
-import propType from 'prop-type';
+// import propType from 'prop-type';
 
 const Statistics = ({ good, neutral, bad, total, percentage }) => (
   <ul className={css.statList}>
