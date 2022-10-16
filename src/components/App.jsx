@@ -10,6 +10,7 @@ export class App extends Component {
     neutral: 0,
     bad: 0,
   };
+
   handleClickGood = e => {
     this.setState(prevState => {
       return {
